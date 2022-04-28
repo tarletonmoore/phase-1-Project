@@ -16,6 +16,7 @@ img {
 
 #leftcol {
     float: left;
+    margin: 10px;
 }
 
 td, th { border: 1px solid black;
@@ -31,9 +32,10 @@ tr:nth-of-type(4), tr:nth-of-type(5), tr:nth-of-type(6) {background-color:white;
 
 #rightcol {
     float: right;
+    margin: 10px;
 }
 
-#rightcol h2 {
+h2 {
     text-align: center;
     color: gray;
 }
@@ -48,6 +50,7 @@ img[src="images/pikachu.jpg"] {
 }
 
 #form {
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    margin: 10px;
 }
