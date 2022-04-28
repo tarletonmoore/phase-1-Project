@@ -1,5 +1,6 @@
 body {
     background-image: url("images/corrugation.png");
+    background-color: black;
 }
 
 h1 {
@@ -15,6 +16,17 @@ img {
 #leftcol {
     float: left;
 }
+
+td, th { border: 1px solid black;
+    padding: 0.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+    tr:nth-of-type(1), tr:nth-of-type(2) {background-color: red;}
+
+tr:nth-of-type(3) {background-color: darkgray;}
+
+tr:nth-of-type(4), tr:nth-of-type(5) {background-color:white;}
+
 
 #rightcol {
     float: right;
