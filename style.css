@@ -35,7 +35,11 @@ tr:nth-of-type(4), tr:nth-of-type(5), tr:nth-of-type(6) {background-color:white;
     margin: 10px;
 }
 
-h2 {
+#leftcol h2 {
+    text-align: center;
+    color: gray;
+}
+#rightcol h2 {
     text-align: center;
     color: gray;
 }
