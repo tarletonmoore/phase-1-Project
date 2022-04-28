@@ -1,6 +1,23 @@
+body {
+    background-image: url("images/corrugation.png");
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
 img {
     width: 1200px;
     height: 600px;
+}
+
+#leftcol {
+    float: left;
+}
+
+#rightcol {
+    float: right;
 }
 
 img[src="images/pikachu.jpg"] {
