@@ -17,6 +17,7 @@ img {
 #leftcol {
     float: left;
     margin: 10px;
+    width: 600px;
 }
 
 td, th { border: 1px solid black;
@@ -30,9 +31,11 @@ tr:nth-of-type(3) {background-color: darkgray;}
 tr:nth-of-type(4), tr:nth-of-type(5), tr:nth-of-type(6) {background-color:white;}
 
 
+
 #rightcol {
     float: right;
     margin: 10px;
+    width: 600px;
 }
 
 #leftcol h2 {
@@ -49,12 +52,23 @@ h3 {
 }
 
 img[src="images/pikachu.jpg"] {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#form {
-    position: absolute;
-    bottom: 0;
-    margin: 10px;
+
+
+#form-section {
+   float: left;
+   clear: left;
+   margin-bottom: 20px;
+   margin-left: 10px;
+} 
+
+#pokemon-collection {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

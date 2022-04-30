@@ -8,7 +8,7 @@
 </head>
 
 <Body>
-    <div>
+    <div id="container">
         <header>
             <img src="images/pokemonbanner.jpg" alt="pokeball" />
             <h1>The Wonderful World Of Pokemon</h1>
@@ -92,25 +92,28 @@
 
         </div>
 
-        <div id="form">
+        <div id="form-section">
 
-            <form class="add-favorite-pokemon">
-                <h3>Favorite Pokemon</h3>
+            <div id="form">
 
-                <input type="text" name="name" value="" placeholder="Enter a pokemon's name" class="input-text" />
-                <br />
-                <input type="text" name="image" value="" placeholder="Enter a pokemon's image URL..."
-                    class="input-text" />
-                <br />
-                <input type="submit" name="submit" value="Add Favorite Pokemon" class="submit" />
-            </form>
+                <form class="add-favorite-pokemon">
+                    <h3>Favorite Pokemon</h3>
+
+                    <input type="text" name="name" value="" placeholder="Enter a pokemon's name" class="input-text" />
+                    <br />
+                    <input type="text" name="image" value="" placeholder="Enter a pokemon's image URL..."
+                        class="input-text" />
+                    <br />
+                    <input type="submit" name="submit" value="Add Favorite Pokemon" class="submit" />
+                </form>
+
+            </div>
+
+
+            <div id="pokemon-collection"></div>
+            <script type="text/javascript" src="script.js"></script>
 
         </div>
-
-
-        <div id="pokemon-collection"></div>
-        <script type="text/javascript" src="script.js"></script>
-
 
     </div>
 
