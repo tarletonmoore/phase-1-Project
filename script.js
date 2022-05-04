@@ -48,11 +48,15 @@ function renderPokemon(pokemon) {
     let img = document.createElement("img")
     img.src = pokemon.image
     h2.innerText = pokemon.name
+    let button = document.createElement("button")
+    button.innerText = "X"
+    button.addEventListener("click", () => {
+        button.parentNode.remove(button.parentNode)
 
-
-
+    })
+    // h2.append(button)
     let favoriteDiv = document.createElement("div")
-    favoriteDiv.append(h2, img)
+    favoriteDiv.append(button, h2, img)
     pokemonCollection.append(favoriteDiv)
 
 }
