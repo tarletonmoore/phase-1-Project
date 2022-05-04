@@ -8,12 +8,12 @@
         {
             "id": 2,
             "name": "Tyranitar",
-            "image": "https://static.wikia.nocookie.net/sonicpokemon/images/9/95/Tyranitar.png/revision/latest?cb=20120801034741"
+            "image": "https://static.wikia.nocookie.net/sonicpokemon/images/9/95/Tyranitar.png"
         },
         {
             "id": 3,
             "name": "Slowbro",
-            "image": "https://static.wikia.nocookie.net/sonicpokemon/images/c/c3/Slowbro_AG_anime.png/revision/latest?cb=20130625042838"
+            "image": "https://static.wikia.nocookie.net/sonicpokemon/images/c/c3/Slowbro_AG_anime.png"
         }
     ]
 }
