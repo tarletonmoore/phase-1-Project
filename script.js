@@ -52,10 +52,12 @@ function renderPokemon(pokemon) {
     button.innerText = "X"
     button.addEventListener("click", () => {
         button.parentNode.remove(button.parentNode)
-
     })
-    // h2.append(button)
+    h2.style.color = "gray"
+    img.style.width = "400px"
+    img.style.width = "400px"
     let favoriteDiv = document.createElement("div")
+    favoriteDiv.id = "favorite"
     favoriteDiv.append(button, h2, img)
     pokemonCollection.append(favoriteDiv)
 

@@ -4,6 +4,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+img[src="images/pokemonbanner.jpg"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     text-align: center;
     color: gray;
@@ -71,4 +77,12 @@ img[src="images/pikachu.jpg"] {
 #pokemon-collection {
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#favorite {
+    margin-right: 15px;
+    margin-left: 15px;
 }
