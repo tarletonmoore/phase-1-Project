@@ -1,12 +1,9 @@
 
 
 document.addEventListener("DOMContentLoaded", () => {
-
-
     fetchPokemon()
     let form = document.querySelector(".add-favorite-pokemon")
     form.addEventListener("submit", handleForm)
-
 })
 
 
